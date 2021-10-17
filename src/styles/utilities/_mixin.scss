@@ -1,0 +1,53 @@
+@import './variables';
+
+
+@mixin container($containersize) {
+    margin: 0 auto;
+    padding: 10px;
+
+    @if $containersize == big {
+        max-width: 1300px;
+    }
+
+    @if $containersize == medium {
+        max-width: 900px;
+    }
+
+    @if $containersize == small {
+        max-width: 700px;
+    }
+}
+
+@mixin flex($myflex) {
+        display: flex;
+
+    @if $myflex == columncenter {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    @if $myflex == center {
+        flex-direction: center;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@mixin media ($breakpoint) {
+    @if $breakpoint == phone {
+        @media only screen and (min-width: 700px) {
+            @content;
+        }
+    }
+    @if $breakpoint == tablet {
+        @media only screen and (min-width: 1000px) {
+            @content;
+        }
+    }
+}
+
+@mixin font($myfont) {
+    @if $myfont == first {
+        font-family: 'Open Sans', sans-serif;
+    }
+}

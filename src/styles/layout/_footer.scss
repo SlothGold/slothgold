@@ -1,0 +1,9 @@
+@import '../utilities/_mixin.scss/';
+@import '../utilities/variables';
+
+
+.container-footer {
+    @include container(small);
+    @include flex(center);
+    flex-direction: column;
+}

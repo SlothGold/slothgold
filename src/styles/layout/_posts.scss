@@ -1,0 +1,22 @@
+@import '../utilities/_mixin.scss/';
+@import '../utilities/variables';
+
+.hero-category {
+    position: relative;
+    @include flex(center);
+
+}
+
+.hero-content {
+    position: absolute;
+    padding: 20px;
+    background-color: rgba(0,0,0,0.7);
+    border-radius: 4px;
+    color: $color-first-dark;
+    max-width: 400px;
+
+    h1, h2, h3 {
+        color: $color-third-light;
+        margin-bottom: 20px;
+    }
+}

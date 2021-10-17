@@ -1,0 +1,30 @@
+@import '../utilities/_mixin.scss/';
+@import '../utilities/variables';
+
+.nav {
+    //Make them next to eacouter
+    display: flex;
+    //Removes the dot next to <li> tags
+    list-style-type: none;
+    color: $color-second;
+
+    li {
+        margin: 0 10px;
+        
+        //Remove the padding on the first and last <li>
+        &:first-child {
+            margin-left: 0;
+        }
+        &:last-child {
+            margin-right: 0;
+        }
+
+        &:hover {
+            color: $color-third;
+            cursor: pointer;
+        }
+    }
+    a {
+        color: inherit;
+    }
+}

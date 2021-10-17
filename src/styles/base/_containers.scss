@@ -1,0 +1,52 @@
+@import '../utilities/_mixin.scss/';
+@import '../utilities/variables';
+
+.background1 {
+    content: hello;
+}
+
+.container1 {
+    @include container(big);
+}
+
+.container-medium {
+    @include container(medium);
+}
+
+.container-small {
+    @include container(small);
+}
+
+// ----- FLEX -----
+
+.flexColumCenter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flexRowCenter {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.flexTopbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @include media(phone) {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+// ----- MARGIN-TOP -----
+.margin-top {
+    margin-top: 70px;
+}
+
+.margin-top-small {
+    margin-top: 40px;
+}

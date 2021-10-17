@@ -1,0 +1,34 @@
+@import '../utilities/_mixin.scss/';
+@import '../utilities/variables';
+
+input {
+    width: 100%;
+    border: 1px solid $color-second;
+    margin: 0;
+    padding: 12px 20px;
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    //Otherwise it dosent look good with the padding.
+    box-sizing: border-box;
+
+    &:focus {
+        border: 1px solid $color-third;
+        outline: none;
+    }
+
+    @include media(tablet) {
+        margin: 0 4px;
+    }
+}
+
+form {
+    margin-top: 40px;
+     @include media(tablet) {
+         display: flex;
+     }
+
+     button {
+        margin-left: 2px;
+    }
+}

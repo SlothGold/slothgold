@@ -1,0 +1,25 @@
+@import '../utilities/_mixin.scss/';
+@import '../utilities/variables';
+
+button {
+    width: 100%;
+    font-size: 0.9rem;
+    font-weight: 600;
+    padding: 12px 20px;
+    background-color: $color-third;
+    color: $color-first;
+    border: 0;
+    border-radius: 4px;
+
+    &:hover {
+        background-color: $color-third-light;
+        cursor: pointer;
+    }
+}
+
+
+// ----- CATEGORYS -----
+.cat-analysis {
+    background-color: grey;
+    color: $color-first-light;
+}
