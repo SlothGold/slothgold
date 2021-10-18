@@ -1,17 +1,17 @@
-import '../styles/style.css'
+import '../styles/style.css';
 
-export default function Stocks() {
+export default function Saving() {
     return (
-        <div className="container1 margin-top-small">
+<div className="container1 margin-top-small">
             <div className="hero-category">
                 <img 
-                src="https://images.unsplash.com/photo-1535320903710-d993d3d77d29?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80" 
+                src="https://images.unsplash.com/photo-1607863680198-23d4b2565df0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80" 
                 alt="" 
                 />
                 <div className="hero-content">
-                    <h2>Stocks</h2>
+                    <h2>Saving</h2>
                     <p>
-                        Analysis, fundamental analysis & everything else stock related.
+                        All saving tips
                     </p>
                 </div>
             </div>

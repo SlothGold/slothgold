@@ -1,8 +1,8 @@
-@import '../utilities/_mixin.scss/';
+@import '../utilities/mixin';
 @import '../utilities/variables';
 
 .background1 {
-    content: hello;
+    background-color: $color-first;
 }
 
 .container1 {
@@ -15,6 +15,11 @@
 
 .container-small {
     @include container(small);
+}
+
+.container-topbar {
+    @include container(big);
+    padding: 10px;
 }
 
 // ----- FLEX -----
@@ -49,4 +54,9 @@
 
 .margin-top-small {
     margin-top: 40px;
+}
+
+// ----- MARGIN-BOTTOM -----
+.margin-bottom {
+    margin-bottom: 150px;
 }

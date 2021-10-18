@@ -3,8 +3,8 @@
 
 .hero-category {
     position: relative;
-    @include flex(center);
-
+    display: flex;  
+    align-items: center;
 }
 
 .hero-content {
@@ -18,5 +18,38 @@
     h1, h2, h3 {
         color: $color-third-light;
         margin-bottom: 20px;
+    }
+}
+
+.hero-home {
+
+    a {
+        margin-bottom: 20px;
+        float: right;
+        font-weight: 600;
+    }
+
+    p {
+        margin-bottom: 20px;
+    }
+
+    img {
+        max-height: 440px;
+    }
+
+    @include media(tablet) {
+        display: flex;
+
+        img {
+            width: 540px;
+        }
+    }
+}
+
+.hero-home-text {
+    margin-right: 30px;
+
+    h1, h2, h3, h4 {
+        margin-bottom: 6px;
     }
 }

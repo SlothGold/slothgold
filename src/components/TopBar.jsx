@@ -4,15 +4,20 @@ import {Link} from 'react-router-dom';
 
 export default function TopBar() {
     return (
-        <div className="background1">
-            <div className="container1 flexTopbar">
+        <div>
+            <div className="container-topbar flexTopbar">
             <div className="logo">
                 <Link to="/">
-                <h3>Sloth<span className="color-third">Gold</span></h3>
+                <h4>Sloth<span className="color-third">Gold</span></h4>
                 </Link>
             </div>
 
             <ul className="nav">
+                <li>
+                    <Link to="/">
+                    Home
+                    </Link>
+                </li>
                 <li>
                     <Link to="/singlepost">
                     Business
@@ -27,7 +32,9 @@ export default function TopBar() {
                     Finance
                 </li>
                 <li>
+                <Link to="/saving">
                     Saving
+                </Link>
                 </li>
             </ul>
             </div>

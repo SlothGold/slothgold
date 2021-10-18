@@ -1,12 +1,13 @@
 
 // ----- COLORS -----
-$color-first: #F2F2F2;
+$color-first: #FAFAFA;
 $color-first-light: #fff;
 $color-first-dark: #c7c7c7;
 
-$color-second: #464646;
-$color-second-light: #858585;
-$color-second-dark: #000;
+$color-second: #2e2e2e;
+//#263238, #464646
+$color-second-light: #263238;
+$color-second-dark: #11171A;
 
 //#EEB238FF
 //#BF9B30
@@ -22,3 +23,4 @@ $padding-sides: 10px ;
 
 // ----- FONTS -----
 $font-first: 'font-family: 'Open Sans', sans-serif';
+$font-size:1.25rem;

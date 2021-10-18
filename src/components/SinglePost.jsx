@@ -4,7 +4,7 @@ export default function SinglePost() {
     return (
         <article className="container-small margin-top-small">
 
-            <h1>How to kill someone in 5 steps</h1>
+            <h2>How to kill someone in 5 steps</h2>
             <p className="cat-date"> 
                 <span className="date">Last updated on October 17, 2021</span>
             </p>
@@ -17,13 +17,18 @@ export default function SinglePost() {
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit, fuga.
             </p>
 
+            <p className="test">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, velit odio quaerat exercitationem quibusdam, vitae itaque veritatis, cumque optio ad beatae necessitatibus? Distinctio nihil omnis iure quidem aut aperiam, adipisci totam, animi soluta in necessitatibus. Illum amet asperiores animi unde! Ipsam tempora eos animi iure a quae provident delectus quidem.
             </p>
-
-            <h2 className="color-third">
-                Why me?
-            </h2>
+            
+            <h1>Why me</h1>
+            <h2>Why me</h2>
+            <h3>Why me</h3>
+            <h4>Why me</h4>
 
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla voluptatum sed itaque? Impedit illum quidem hic totam praesentium perferendis eos.

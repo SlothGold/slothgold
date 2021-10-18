@@ -2,30 +2,55 @@
 @import '../utilities/variables';
 
 html {
-    @include font(first);
+    @include font(small);
     font-weight: 500;
-    font-size: 1.1rem;
-    color: $color-second;
-    line-height: 2;
+    font-size: $font-size;
+    color: $color-second-light;
+    line-height: 1.5;
 }
 
 h1, h2, h3, h4, h5, h6 {
+    @include font(big);
+    font-weight: 900;
     color: $color-second-dark;
     line-height: 1;
 }
 
 h1 {
-    font-size: 4rem;
+    font-size: calc(#{$font-size} * 1.618 * 3);
+    font-weight: 700;
 }
 
 h2 {
-    font-size: 2.5rem;
+    font-size: calc(#{$font-size} * 1.618*2);
     font-weight: 700;
+    
 }
 
 h3 {
-    font-size: 1.8rem;
-    font-weight: 700;
+    font-size: calc(#{$font-size} * 1.618);
+    font-weight: 600;
+}
+
+h4 {
+    font-size: calc(#{$font-size} * 1.4);
+    font-weight: 400;
+}
+
+p {
+    font-weight: 300;
+}
+
+p.strong {
+    font-weight: 400;
+    color: $color-second;
+}
+
+.test {
+    @include font(medium);
+    color: $color-second-dark;
+    font-size: 2rem;
+    line-height: 1.2;
 }
 
 a {
@@ -33,24 +58,37 @@ a {
     text-decoration: none;
 
     &:hover {
-        color: $color-third;
+        color: $color-third-dark;
     }
 }
 
 .logo {
+    h4 {
+        font-weight: 600;
+        font-size: 1.45rem;
+    }
+
     a {
         text-decoration: none;
     }
 }
 
+.nav {
+    font-weight: 500;
+}
+
 article {
 
     p {
-        margin-top: 40px;
+        margin-top: 30px;
     }
 
     h2, h3, h4 {
         margin-top: 70px;
+    }
+
+    span.color-third {
+        font-weight: 600;
     }
 }
 
@@ -84,12 +122,10 @@ article {
 }
 
 // ----- HR STYLES -----
-hr {
-    border: 0;
-    height: 1px;
-}
 
 hr.style {
+    border: 0;
+    height: 1px;
     background: #333;
     background-image: linear-gradient(to right, #ccc, #333, #ccc);
 

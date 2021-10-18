@@ -28,3 +28,16 @@
 .card-content {
     padding: 20px 10px;
 }
+
+.card-img {
+    position: relative;
+    display: flex;  
+}
+
+
+// ----- CATEGORYS -----
+.cat-analysis {
+    @include catBasic;
+
+    background-color: rgb(94, 92, 92);
+}

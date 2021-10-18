@@ -1,14 +1,14 @@
 @import '../utilities/_mixin.scss/';
 @import '../utilities/variables';
 
-input {
-    width: 100%;
+input, textarea {
     border: 1px solid $color-second;
+    border-radius: 4px;
+    width: 100%;
     margin: 0;
     padding: 12px 20px;
     font-size: 0.9rem;
     margin-bottom: 10px;
-    border-radius: 4px;
     //Otherwise it dosent look good with the padding.
     box-sizing: border-box;
 
@@ -17,18 +17,44 @@ input {
         outline: none;
     }
 
-    @include media(tablet) {
-        margin: 0 4px;
-    }
+}
+
+textarea {
+    @include font(big);
 }
 
 form {
     margin-top: 40px;
-     @include media(tablet) {
+     @include media(phone) {
          display: flex;
      }
 
      button {
-        margin-left: 2px;
+        
+        @include media(phone) {
+            max-width: 150px;
+            max-height: 50px;
+        }
+    }
+}
+
+.form-subscribe {
+    max-width: 440px;
+
+    @include media(phone) {
+        button {
+            margin-left: 10px;
+        }
+    }
+}
+
+.form-contact {
+
+    @include media(phone) {
+        display: flex;
+        flex-direction: column;
+        input {
+            max-width: 50%;
+        }
     }
 }
