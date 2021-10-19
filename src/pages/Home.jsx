@@ -32,7 +32,6 @@ export default function Home() {
                     alt="" 
                 />
             </div>
-                Website Uploaded.
             <br />
             <br />
             <br />

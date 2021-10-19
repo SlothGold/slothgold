@@ -53,7 +53,10 @@
 }
 
 .margin-top-small {
-    margin-top: 40px;
+
+    @include media(tablet) {
+        margin-top: 40px;
+    }
 }
 
 // ----- MARGIN-BOTTOM -----

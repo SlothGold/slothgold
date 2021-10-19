@@ -32,9 +32,9 @@ export default function Stocks() {
                         />
                     </div>
                     <div className="card-content">
-                        <h3>
+                        <h4>
                         Torslanda property investment value company
-                        </h3>
+                        </h4>
                     </div>
                 </li>
                 <li className="card">

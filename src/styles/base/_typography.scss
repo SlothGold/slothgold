@@ -17,14 +17,21 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-    font-size: calc(#{$font-size} * 1.618 * 3);
+    font-size: calc(#{$font-size} * 1.618 * 2);
     font-weight: 700;
+
+    @include media(tablet) {
+        font-size: calc(#{$font-size} * 1.618 * 3);
+    }
 }
 
 h2 {
-    font-size: calc(#{$font-size} * 1.618*2);
+    font-size: calc(#{$font-size} * 1.618*1.2);
     font-weight: 700;
     
+    @include media(tablet) {
+        font-size: calc(#{$font-size} * 1.618 * 2);
+    }
 }
 
 h3 {
@@ -34,7 +41,7 @@ h3 {
 
 h4 {
     font-size: calc(#{$font-size} * 1.4);
-    font-weight: 400;
+    font-weight: 600;
 }
 
 p {
@@ -63,6 +70,7 @@ a {
 }
 
 .logo {
+    margin-bottom: 12px;
     h4 {
         font-weight: 600;
         font-size: 1.45rem;
@@ -70,6 +78,10 @@ a {
 
     a {
         text-decoration: none;
+    }
+
+    @include media(phone) {
+        margin-bottom: 0;
     }
 }
 
@@ -84,7 +96,9 @@ article {
     }
 
     h2, h3, h4 {
-        margin-top: 70px;
+        @include media(tablet) {
+            margin-top: 70px;
+        }
     }
 
     span.color-third {

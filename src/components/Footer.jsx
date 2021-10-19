@@ -18,7 +18,7 @@ export default function Footer() {
                         </Link>
                     </li>
                 </ul>
-                <h3 className="copyright">Sloth<span className="color-third">Gold</span>.com &copy; 2021</h3>
+                <h4 className="copyright">Sloth<span className="color-third">Gold</span>.com &copy; 2021</h4>
             </div>
         </div>
     )
