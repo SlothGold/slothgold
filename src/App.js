@@ -16,6 +16,7 @@ import Contact from "./pages/Contact";
 import ScrollToTop from "./components/ScrollToTop";
 import HowImadeMyFirst$100kByTheAgeOf27 from "./blogposts/How-I-made-my-first-$100k-by-the-age-of-27";
 import Saving from "./pages/Saving";
+import Blog from "./pages/Blog";
 
 function App() {
   return (
@@ -28,6 +29,9 @@ function App() {
     </Route>
     <Route exact path="/slothgold">
       <Home />
+    </Route>
+    <Route exact path="/blog">
+      <Blog />
     </Route>
     <Route path="/stocks">
       <Stocks />

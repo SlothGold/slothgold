@@ -1,6 +1,9 @@
 @import '../utilities/_mixin.scss/';
 @import '../utilities/variables';
 
+.footer {
+    margin-top: 180px;
+}
 
 .container-footer {
     @include container(small);

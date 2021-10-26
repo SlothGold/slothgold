@@ -18,8 +18,8 @@ export default function Home() {
                     have still managed to become richer then most people
                 </p>
                 <p>
-                    I got my first allowance when I was 13 years old, so money have always been scarce to me. I paid for rent home when I was about 19 till
-                    I moved out about 24. The rent was about the same as if I had my own apartment. I had maybe a total of 2 year work experience.
+                    I got my first allowance when I was 13 years old, so money have always been scarce to me. I had to prioritize. Paid for rent home when I was about 19 till
+                    I moved out about 24. The rent was about the same as if I had my own apartment. I had maybe a total of 2 year work experience before moving out.
                 </p>
                 <br />
                 <Link to="/how_i_made_my_first_$100k_by_the_age_of_27">

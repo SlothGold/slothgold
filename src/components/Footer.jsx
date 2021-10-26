@@ -3,10 +3,10 @@ import {Link} from 'react-router-dom';
 
 export default function Footer() {
     return (
-        <div>
+        <div className="footer">
             <hr className="style" />
             <div className="container-footer">
-                <ul className="nav">
+                <ul className="nav-footer">
                     <li>
                         <Link to="/about-us">
                         About us

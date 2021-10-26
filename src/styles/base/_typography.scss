@@ -27,7 +27,7 @@ h1 {
 
 h2 {
     font-size: calc(#{$font-size} * 1.618*1.2);
-    font-weight: 700;
+    font-weight: 600;
     
     @include media(tablet) {
         font-size: calc(#{$font-size} * 1.618 * 2);
@@ -40,8 +40,8 @@ h3 {
 }
 
 h4 {
-    font-size: calc(#{$font-size} * 1.4);
-    font-weight: 600;
+    font-size: calc(#{$font-size} * 1.2);
+    font-weight: 400;
 }
 
 p {
@@ -70,7 +70,6 @@ a {
 }
 
 .logo {
-    margin-bottom: 12px;
     h4 {
         font-weight: 600;
         font-size: 1.45rem;
@@ -78,10 +77,6 @@ a {
 
     a {
         text-decoration: none;
-    }
-
-    @include media(phone) {
-        margin-bottom: 0;
     }
 }
 
@@ -104,6 +99,19 @@ article {
     span.color-third {
         font-weight: 600;
     }
+
+    ul {
+        margin: 12px 0 $padding-site $padding-site;
+
+        li {
+            font-weight: 300;
+            color: $color-second-light;
+            margin: 0.3em 0;
+        }
+    }
+    a {
+        font-weight: 600;
+    }
 }
 
 .cat-date {
@@ -122,8 +130,17 @@ article {
     font-weight: 300px;
 }
 
+.text-background2 {
+    background-color: #D8D8D8;
+    padding: 4px;
+    border: 1px solid #F0F0F0;
+    font-weight: 400;
+}
+
 .copyright {
     margin-top: 30px;
+    font-weight: 600;
+    font-size: 1.45rem;
 }
 
 // ----- COLORS -----

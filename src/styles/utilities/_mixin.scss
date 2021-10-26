@@ -1,8 +1,20 @@
 @import './variables';
 
+@mixin media ($breakpoint) {
+    @if $breakpoint == phone {
+        @media only screen and (min-width: 700px) {
+            @content;
+        }
+    }
+    @if $breakpoint == tablet {
+        @media only screen and (min-width: 996px) {
+            @content;
+        }
+    }
+}
 
+$padding-site: 1rem;
 
-$padding-site: 40px;
 @mixin container($containersize) {
     margin: 0 auto;
     padding: $padding-site;
@@ -35,19 +47,6 @@ $padding-site: 40px;
         flex-direction: center;
         align-items: center;
         justify-content: center;
-    }
-}
-
-@mixin media ($breakpoint) {
-    @if $breakpoint == phone {
-        @media only screen and (min-width: 700px) {
-            @content;
-        }
-    }
-    @if $breakpoint == tablet {
-        @media only screen and (min-width: 996px) {
-            @content;
-        }
     }
 }
 

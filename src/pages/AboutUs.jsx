@@ -28,6 +28,12 @@ export default function AboutUs() {
                 I have basically no idea what I am doing and by trial and error I do eventually succeed.
             </p>
 
+            <h4>Content</h4>
+            <p>
+                Will be mostly related to making/saving money/time so I can live the sweet as sloth life.
+                So frugal, minimalism, DIY, investing, starting a business. Whatever I do and want to share.
+            </p>
+
             <h4>Web Design</h4>
             <p>
                 This website is built by me, instead of copying I thought I would learn myself to code from scratch.

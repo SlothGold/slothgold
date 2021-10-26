@@ -3,6 +3,7 @@ import '../styles/style.css'
 export default function Stocks() {
     return (
         <div className="container1 margin-top-small">
+            <br />
             <div className="hero-category">
                 <img 
                 src="https://images.unsplash.com/photo-1535320903710-d993d3d77d29?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80" 
@@ -15,6 +16,9 @@ export default function Stocks() {
                     </p>
                 </div>
             </div>
+            <br />
+            <br />
+            <br />
             <br />
             <br />
 

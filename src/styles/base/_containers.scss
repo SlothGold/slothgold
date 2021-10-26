@@ -17,11 +17,6 @@
     @include container(small);
 }
 
-.container-topbar {
-    @include container(big);
-    padding: 10px;
-}
-
 // ----- FLEX -----
 
 .flexColumCenter {
@@ -38,13 +33,8 @@
 
 .flexTopbar {
     display: flex;
-    flex-direction: column;
     align-items: center;
-
-    @include media(phone) {
-        flex-direction: row;
-        justify-content: space-between;
-    }
+    justify-content: space-between;
 }
 
 // ----- MARGIN-TOP -----
@@ -55,7 +45,7 @@
 .margin-top-small {
 
     @include media(tablet) {
-        margin-top: 40px;
+        margin-top: 20px;
     }
 }
 

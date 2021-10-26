@@ -12,8 +12,20 @@
 }
 
 .cover-content-text {
-
+    margin-top: 2rem;
     h1, h2, h3 {
         margin-bottom: 10px;
+    }
+
+    @include media(tablet) {
+        margin-top: 2.5em;
+    }
+}
+
+.cover-content-other {
+    margin-bottom: 2rem;
+
+    @include media(tablet) {
+        margin-bottom: 2rem;
     }
 }

@@ -1,4 +1,5 @@
 import '../styles/style.css';
+import NewsletterForm from './newsletter/NewsletterForm';
 
 export default function Header() {
     return (
@@ -7,7 +8,7 @@ export default function Header() {
 
                 <div className="cover-content">
                     <div className="cover-content-text">
-                        <h2>Organized lazyness</h2>
+                        <h2>Organized laziness</h2>
                         <br />
                         <p className="strong">
                             Doing nothing has always been a great passion of mine and
@@ -19,11 +20,7 @@ export default function Header() {
                         </p>
                         </div>
                         <div className="cover-content-other">
-                            <form className="form-subscribe">
-                                <input className="none" type="name" placeholder="Name..."/>
-                                <input type="email" placeholder="Email..."/>
-                                <button>Subscribe</button>
-                            </form>
+                            <NewsletterForm />
                         </div>
                 </div>
             </div>

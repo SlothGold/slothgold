@@ -9,6 +9,9 @@
     
     img {
         max-height: 300px;
+        @include media(tablet) {
+            max-height: 11.5em;
+        }
     }
 
     &:hover {
@@ -31,7 +34,14 @@
 
 .card-img {
     position: relative;
-    display: flex;  
+    display: flex;
+    
+    span:nth-child(2) {
+        top: 3em;
+    }
+    span:nth-child(3) {
+        top: 6em;
+    }
 }
 
 
@@ -40,4 +50,28 @@
     @include catBasic;
 
     background-color: rgb(94, 92, 92);
+}
+
+.cat-business {
+    @include catBasic;
+
+    background-color: #FF0000;
+}
+
+.cat-finance {
+    @include catBasic;
+
+    background-color: #32B04A;
+}
+
+.cat-stock {
+    @include catBasic;
+
+    background-color: #3B5152;
+}
+
+.cat-frugal {
+    @include catBasic;
+
+    background-color: #8C5722;
 }
