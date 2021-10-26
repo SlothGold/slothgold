@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/slothgold/static/css/main.a7a4d15b.chunk.css",
-    "main.js": "/slothgold/static/js/main.e585bcff.chunk.js",
-    "main.js.map": "/slothgold/static/js/main.e585bcff.chunk.js.map",
+    "main.js": "/slothgold/static/js/main.2d124fb2.chunk.js",
+    "main.js.map": "/slothgold/static/js/main.2d124fb2.chunk.js.map",
     "runtime-main.js": "/slothgold/static/js/runtime-main.228ee279.js",
     "runtime-main.js.map": "/slothgold/static/js/runtime-main.228ee279.js.map",
     "static/js/2.8657bde3.chunk.js": "/slothgold/static/js/2.8657bde3.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.228ee279.js",
     "static/js/2.8657bde3.chunk.js",
     "static/css/main.a7a4d15b.chunk.css",
-    "static/js/main.e585bcff.chunk.js"
+    "static/js/main.2d124fb2.chunk.js"
   ]
 }
