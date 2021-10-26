@@ -11,6 +11,9 @@ export default function Blog() {
                 />
                 <div className="hero-content">
                     <h1>Blog</h1>
+                    <p>
+                        About Finance, Frugal, Business, stocks and everything else I care about.
+                    </p>
                 </div>
             </div>
             <br />
