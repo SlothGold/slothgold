@@ -26,77 +26,96 @@ export default function HowImadeMyFirst$100kByTheAgeOf27() {
             </p>
             <ul>
                 <li>
-                    Saving vs investing
+                    <a href="#saving-vs-investing">
+                        Saving vs Investing vs Work
+                    </a>
                 </li>
                 <li>
-                    Saving 101
+                    <a href="#why-invest">
+                        Why Invest instead of just earning more?
+                    </a>
                 </li>
                 <li>
-                    Investing
+                    <a href="#investment-strategies">
+                        Investment Strategies
+                    </a>
                 </li>
                 <li>
-                    Stocks & current investment plans.
+                    The real gains from Saving
                 </li>
             </ul>
 
-            <h3>Terminate or cut down on expenses.</h3>
+            <h3 id="saving-vs-investing">
+                1. Saving vs Investing vs Work
+            </h3>
             <p>
-                Whatever your are paying for you could always chose to not buy it.
-                It's not like any of us is forced to pay for anything, right?
+                The financial goal is to have as much money as possible, right?
             </p>
             <p>
-                Some stuff is really hard not to pay for and some is simply not worth it.
-                But we are never forced and moneys worth is relative.
-                It's just a piece of paper with a number on it.
-                It's worth is determined by other factors then the material value.
-            </p>
-
-            <h4>Money's worth</h4>
-            <p>
-                It's about the demand. 
-                Create enough hunger and everyone becomes a criminal. 
-                Desperation I believe is a one of the things to be a big factor for demand.
-                Create enough need for money and soon you will do petty crimes for change instead of thinking of a more long term solution.
+                <b>Work</b> is the activity involving mental or physical effort done in order to achieve a purpose or result.
             </p>
             <p>
-                Lower the demand, lower the price. Get out of hunger and start planting seeds and in the future 
-                you will have a farm and never have to worry about hunger again, or at least worry about it less. 
+                <b>Saving</b> is the means of turning your hard earned cash into a profit and <b>investing</b> is the means of turning that cash into more cash and in turn making even more profit.
             </p>
-            <p>
-                Terminate as much as possible to kill the desperation and focus on the things that has a monthly cost because they will add up.
-                Things that gives a short term gratification is also bad because they also add up big time.
-            </p>
-            <p>
-                Expenses I don't want to completely terminate I try to cut down, little by little. Don't need massive savings in one area right away but it
-                sure does help if you can cut it down.
+            <p>          
+                I want to achieve financial independence so the endgame for me is to have enough income to pay my living expenses for the rest of my life by myself.
             </p>
 
-            <h3>How got I better and better at saving.</h3>
+            <h3 id="why-invest">
+                2. Why Invest instead of just earning more?
+            </h3>
             <p>
-                I made
-                <a href="" target="_blank"> my own budget </a>
-                and try to play around with it. There are plenty of
-                <a href="https://blog.risecredit.com/17-free-google-sheets-budget-templates/" target="_blank"> other budgets </a>
-                 out there if your looking for something else. 
+                Investing is the endgame in my opinion because often by investing you buy a business and in turn just receive money from it, either by dividend (direct payment) or by the increased valuation of the business over time
             </p>
             <p>
-                I also made potential loss/wins so you could see how much you are likely to gain in the long term by savings your doing now.
-                All to motivate myself to keep improving.
+                You essentially don’t have to do anything after you bought the business. Just have to choose a good enough business and have a good plan.
+                The perfect job for a sloth.
             </p>
-            <img src="https://matplotlib.org/stable/_images/sphx_glr_pie_features_001.png" alt="" />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <img 
+                src="https://finfit.com.au/wp-content/uploads/2015/06/Abert-Einstein-Compound-Interest.jpg" 
+                alt="Albert einstein compound quote" 
+            />
+            <h4>Investing is also extremely rewarding over time.</h4>
+            <br />
+                <img className="img-small" src="https://i.imgur.com/wa8a8Km.png" alt="Compounding formula" />
             <p>
-                Pie charts are the awesome for budgets, love the simplicity. 
+                This is the formula for Compounding. Let’s say we have worked for 1 year and were able to save 12 paychecks and invested and got an annual percentage of 10% for 39 years.
+            </p>
+            <p>
+                12*1.1^39= 493 paychecks. So just by saving 12 paychecks and not touching it for 39 years is equal to going to work for 40 years. 393/40=12.325.
+            </p>
+            <p>
+                And we’re supposed to work for 40 years before we can retire right?
+                Those numbers are not exact because they didn’t count for taxes, inflation or other costs.
+            </p>
+            <p>
+                But the formula is right…. you just need the right numbers.
+            </p>
+            <br />
+
+            <h3 id="investment-strategies">
+                3. Investment Strategies
+            </h3>
+            <p>
+                Just buying a Index Fund is the easiest to get started and doesn't need any maintenance. It’s a good measurement with investments in total.
+            </p>
+            <p>
+                If something doesn't promise closely the return of an index fund then why bother, especially when an index fund has 0 maintenance. Imagine doing work and getting less paid than doing nothing.
+            </p>
+            <p>
+                An index is a method to track the performance of a group of assets in a standardized way. For example <a href="https://www.investopedia.com/terms/s/sp500.asp" target="_blank">S&P 500</a>
+            </p>
+            <p>
+                But I choose also to try to learn stocks because I'm just like everyone else and think I can do better then the majority.
             </p>
 
-            <h4>How I got started Investing and have learned.</h4>
-            <p>
-                Since I was a youngling I always loved games with some sort of economic, I wouldn't always be the best but if the games continued
-                for a long time I sure as hell would be richest and/or have the late-game advantage
-            </p>
-            <p>
-                Since I first got introduced to stocks I instantly fell in love.
-                I couldn't believe that you could buy as much as you want since most games have some sort of cap
-            </p>
+
+            
 
             <h4>Conclusion</h4>
             <p>

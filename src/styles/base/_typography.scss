@@ -105,12 +105,18 @@ article {
 
         li {
             font-weight: 300;
+            font-size: 1.1rem;
             color: $color-second-light;
-            margin: 0.3em 0;
+            margin: 0.4em 0;
+            list-style-type: decimal;
         }
     }
     a {
         font-weight: 600;
+    }
+
+    .img-small {
+        max-width: 400px;
     }
 }
 

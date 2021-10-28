@@ -1,4 +1,5 @@
-import '../styles/style.css'
+import '../styles/style.css';
+import { Link } from 'react-router-dom';
 
 export default function Blog() {
     return (
@@ -42,20 +43,22 @@ export default function Blog() {
                     </div>
                 </li>
                 <li className="card">
-                    <div className="card-img">
-                        <span className="cat-finance">Finance</span>
-                        <span className="cat-frugal">Frugal</span>
-                        <span className="cat-stock">Stock</span>
-                        <img 
-                            src="https://images.unsplash.com/photo-1579621970795-87facc2f976d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" 
-                            alt="" 
-                        />
-                    </div>
-                    <div className="card-content">
-                        <h3>
-                            How I Made my First $100k by the Age of 27
-                        </h3>
-                    </div>
+                    <Link to="/how_i_made_my_first_$100k_by_the_age_of_27">
+                        <div className="card-img">
+                            <span className="cat-finance">Finance</span>
+                            <span className="cat-frugal">Frugal</span>
+                            <span className="cat-stock">Stock</span>
+                            <img 
+                                src="https://images.unsplash.com/photo-1579621970795-87facc2f976d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" 
+                                alt="" 
+                            />
+                        </div>
+                        <div className="card-content">
+                            <h3>
+                                How I Made my First $100k by the Age of 27
+                            </h3>
+                        </div>
+                    </Link>
                 </li>
                 <li className="card">
                     <div className="card-img">

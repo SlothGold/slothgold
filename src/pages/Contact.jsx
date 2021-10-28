@@ -36,7 +36,7 @@ export default function Contact() {
                     <textarea name="message" id="" cols="30" rows="10" placeholder="Message..."></textarea>
                     <button type="submit">Submit</button>
                 </form>
-
+                <br />
                 <h3>Web design/backend</h3>
                 <p>
                     Do you have any tips please send them to me and if your
